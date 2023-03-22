@@ -17,7 +17,7 @@ app.use("/api/v1/danceclasses", danceClassRoutes);
 app.use("/api/v1/participants", participantRoutes);
 
 
-const port = 5000
+const port = 3000
 const run = async () => {
 	try {
 		mongoose.set('strictQuery', false)
