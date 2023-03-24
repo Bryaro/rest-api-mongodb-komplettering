@@ -1,26 +1,26 @@
 const mongoose = require("mongoose");
 
-const participantSchema = new mongoose.Schema({
-    participantName: {
+const memberSchema = new mongoose.Schema({
+    memberName: {
         type: String,
         required: true,
     },
-    participantEmail: {
+    memberEmail: {
         type: String,
         required: true,
     },
-    participantPaymentStatus: {
+    memberPaymentStatus: {
         type: String,
         required: true,
     },
-    participantClass: {
+    memberClass: {
         type: String,
         required: true,
     },
-    participantRole: {
+    memberRole: {
         type: String,
         required: true,
     },
 });
 
-module.exports = mongoose.model("participant", participantSchema);
+module.exports = mongoose.model("member", memberSchema);

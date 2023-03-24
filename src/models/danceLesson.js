@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const danceClassSchema = new mongoose.Schema({
+const danceLessonSchema = new mongoose.Schema({
     name: {
         type: String,
     },
@@ -16,20 +16,20 @@ const danceClassSchema = new mongoose.Schema({
     time: {
         type: String,
     },
-    classDuration: {
+    lessonDuration: {
         type: Number,
     },
     price: {
         type: Number,
     },
-    classLeader: {
+    lessonLeader: {
         type: Array,
     },
     isActive: {
         type: Boolean,
     },
-    participants: [{ type: mongoose.Schema.Types.ObjectId, ref: "participant"}],
-    amountOfParticipants: { type: Number, default: 0},
+    members: [{ type: mongoose.Schema.Types.ObjectId, ref: "member"}],
+    amountOfMembers: { type: Number, default: 0},
 });
 
-module.exports = mongoose.model("danceclass", danceClassSchema);
+module.exports = mongoose.model("dancelesson", danceLessonSchema);

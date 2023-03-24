@@ -4,7 +4,7 @@ const mongoose = require('mongoose')
 const springTerm2023MockData = require('./mockdata/springTerm2023.json')
 // @ts-ignore
 const fallTermMock2023Data = require('./mockdata/fallTerm2023.json')
-const danceClass = require("../src/models/danceClass");
+const danceLesson = require("../src/models/danceLesson");
 
 const seedPresidentsDb = async (connectionString) => {
 	let conn
@@ -13,14 +13,14 @@ const seedPresidentsDb = async (connectionString) => {
 		conn = await mongoose.connect(connectionString)
 
 		// POPULATE DATA ACCOORDING TO YOUR MODELS
-		await danceClass.deleteMany();
-		await danceClass.create(springTerm2023MockData);
-		await danceClass.create(fallTermMock2023Data);
+		await danceLesson.deleteMany();
+		await danceLesson.create(springTerm2023MockData);
+		await danceLesson.create(fallTermMock2023Data);
 
 		//console.log(springTerm2023MockData)
 		//console.log(fallTermMock2023Data)
 
-		console.log("Database Seeded Successfully 🌱")
+		console.log("Database Seeded and ready")
 	} catch (error) {
 		console.error(error)
 	} finally {
