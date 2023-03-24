@@ -5,9 +5,9 @@
 		"start": "2023-09-04",
 		"ends": "2023-11-06",
 		"time": "18:00",
-		"classDuration": 60,
+		"LessonDuration": 60,
 		"price": 1500,
-		"classLeader": ["Leo", "Lisette"],
+		"LessonLeader": ["Leo", "Lisette"],
 		"isActive": false
 	},
 	{
@@ -16,9 +16,9 @@
 		"start": "2023-09-04",
 		"ends": "2023-11-06",
 		"time": "19:00",
-		"classDuration": 90,
+		"lessonDuration": 90,
 		"price": 2000,
-		"classLeader": ["Leo", "Lisette"],
+		"lessonLeader": ["Leo", "Lisette"],
 		"isActive": false
 	},
 	{
@@ -27,9 +27,9 @@
 		"start": "2023-09-05",
 		"ends": "2023-11-07",
 		"time": "18:00",
-		"classDuration": 90,
+		"lessonDuration": 90,
 		"price": 2000,
-		"classLeader": ["Leo", "Lisette"],
+		"lessonLeader": ["Leo", "Lisette"],
 		"isActive": false
 	},
 	{
@@ -38,9 +38,9 @@
 		"start": "2023-09-05",
 		"ends": "2023-11-07",
 		"time": "19:30",
-		"classDuration": 60,
+		"lessonDuration": 60,
 		"price": 1500,
-		"classLeader": ["Valentino", "Joan"],
+		"lessonLeader": ["Valentino", "Joan"],
 		"isActive": false
 	},
 	{
@@ -49,9 +49,9 @@
 		"start": "2023-09-06",
 		"ends": "2023-11-08",
 		"time": "18:00",
-		"classDuration": 90,
+		"lessonDuration": 90,
 		"price": 2000,
-		"classLeader": ["Valentino", "Joan"],
+		"lessonLeader": ["Valentino", "Joan"],
 		"isActive": false
 	},
 	{
@@ -60,9 +60,9 @@
 		"start": "2023-09-06",
 		"ends": "2023-11-08",
 		"time": "19:30",
-		"classDuration": 90,
+		"lessonDuration": 90,
 		"price": 2000,
-		"classLeader": ["Valentino", "Joan"],
+		"lessonLeader": ["Valentino", "Joan"],
 		"isActive": false
 	},
 	{
@@ -71,9 +71,9 @@
 		"start": "2023-09-07",
 		"ends": "2023-11-09",
 		"time": "17:30",
-		"classDuration": 60,
+		"lessonDuration": 60,
 		"price": 1500,
-		"classLeader": ["Andreas", "Inka"],
+		"lessonLeader": ["Andreas", "Inka"],
 		"isActive": false
 	},
 	{
@@ -82,9 +82,9 @@
 		"start": "2023-09-07",
 		"ends": "2023-11-09",
 		"time": "18:30",
-		"classDuration": 90,
+		"lessonDuration": 90,
 		"price": 2000,
-		"classLeader": ["Andreas", "Inka"],
+		"lessonLeader": ["Andreas", "Inka"],
 		"isActive": false
 	},
 	{
@@ -93,9 +93,9 @@
 		"start": "2023-09-07",
 		"ends": "2023-11-09",
 		"time": "20:00",
-		"classDuration": 90,
+		"lessonDuration": 90,
 		"price": 2000,
-		"classLeader": ["Andreas", "Inka"],
+		"lessonLeader": ["Andreas", "Inka"],
 		"isActive": false
 	}
 ]
